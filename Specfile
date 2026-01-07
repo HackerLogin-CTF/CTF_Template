@@ -1,0 +1,4 @@
+[wargame]
+title = "Phantom_Signal"
+tags = "misc"   ; 카테고리/태그
+flag = "INCOGNITO{H1dd3n_1n_th3_N01s3_Pr0t0c0l}"   ; 정답 플래그
