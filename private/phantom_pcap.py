@@ -3,7 +3,7 @@ import random
 import base64
 
 # 1. 설정
-FLAG = "Incognito{H1dd3n_1n_th3_N01s3_Pr0t0c0l}"
+FLAG = "INCOGNITO{H1dd3n_1n_th3_N01s3_Pr0t0c0l}"
 TARGET_IP = "192.168.10.150"  # 감염된 내부 PC
 ATTACKER_IP = "45.13.99.10"     # 외부 C2 서버 (트랩)
 BROADCAST_IP = "239.255.255.250" # SSDP 주소
