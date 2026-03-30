@@ -32,8 +32,7 @@
 ---
 
 
-## 기본 구성
-
+### 필수 구성
 
 ```text
 problem/
@@ -42,32 +41,35 @@ problem/
 ├─ public/
 └─ private/
 ```
-## 선택 구성
+
+### 선택 구성
 문제 구현 방식에 따라 아래 파일/디렉토리를 추가할 수 있습니다.
 
-Dockerfile : 단일 컨테이너 문제
-docker-compose.yaml : 멀티 컨테이너 문제
-web/, db/, scripts/, common/ 등 구현에 필요한 추가 디렉토리
-기타 실행/배포에 필요한 파일
+- Dockerfile : 단일 컨테이너 문제
+- docker-compose.yaml : 멀티 컨테이너 문제
+- web/, db/, scripts/, common/ 등 구현에 필요한 추가 디렉토리
+- 기타 실행/배포에 필요한 파일
+
 단, 아래 원칙을 반드시 지켜주세요.
 
-## 제출 원칙
+## 3. 제출 원칙
+
 1. 참가자 제공 파일
 참가자에게 제공할 파일은 public/만 포함하는 것을 원칙으로 합니다.
 
-문제 바이너리
-소스코드 일부
-첨부파일
-공개 가능한 힌트 자료   
+- 문제 바이너리
+- 소스코드 일부
+- 첨부파일
+- 공개 가능한 힌트 자료   
 
 2. 비공개 파일
 다음과 같은 민감한 자료는 private/ 또는 비공개 경로에만 보관해야 합니다.
 
-실제 플래그
-풀이 코드 / writeup
-배포용 secret
-서버 전용 데이터
-운영용 설정 파일   
+- 플래그
+- 풀이 코드 / writeup
+- 배포용 secret
+- 서버 전용 데이터
+- 운영용 설정 파일   
 
 3. 추가 파일/디렉토리
 기본 템플릿은 최소 권장 구조입니다.
@@ -85,10 +87,9 @@ web/, db/, scripts/, common/ 등 구현에 필요한 추가 디렉토리
 
 - .gitignore: 루트 디렉토리에 공통 .gitignore가 있습니다. 만약 특정 문제 폴더에만 적용되어야 하는 규칙이 있다면, 해당 문제 폴더 내에 .gitignore 파일을 개별적으로 작성합니다.
 
+---
 
-시작 방법
-이 템플릿 저장소를 기반으로 문제별 private 저장소를 생성한 뒤 작업하세요.
+자세한 작업 흐름은 아래 노션 링크를 참고해주세요.
 
-자세한 작업 흐름은 CONTRIBUTING.md를 참고하세요.
-
-* 노션 참고: <https://www.notion.so/hackerlogin/HackerLogin-CTF-32c40ccb644d80a88e44c07948120d8a?source=copy_link>
+* 노션 LINK: <https://www.notion.so/hackerlogin/HackerLogin-CTF-32c40ccb644d80a88e44c07948120d8a?source=copy_link>
+[Notion](https://www.notion.so/hackerlogin/HackerLogin-CTF-32c40ccb644d80a88e44c07948120d8a?source=copy_link, "노션 링크")
