@@ -23,9 +23,14 @@
 
 ---
 
-## 2. 저장소 생성 절차
+## 2. Repository 생성 절차
 
 1. 템플릿 repository를 기반으로 새 private repository를 생성합니다.
+
+- GitHub에서 **"Use this template > Create a new repository"** 를 선택한 후  
+  General 영역에서 **Owner를 HackerLogin-CTF로 변경**, repository 이름을 설정합니다.  
+  이후 Configuration에서 **private**을 선택하고 **Create repository**를 눌러 작업을 시작합니다.
+
 2. repository 이름은 문제명을 기준으로 작성합니다.
 3. 출제자는 자신의 repository에서 문제를 개발합니다.
 
