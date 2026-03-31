@@ -2,3 +2,5 @@
 title = 
 tags = 
 flag = 2026HL{...}
+internal_port = 5000/tcp
+docker_compose = true
