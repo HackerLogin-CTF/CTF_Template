@@ -27,7 +27,7 @@
 
 1. 템플릿 repository를 기반으로 새 private repository를 생성합니다.
 
-- GitHub에서 **"Use this template > Create a new repository"** 를 선택한 후  
+- GitHub에서 오른쪽 상단**"Use this template > Create a new repository"** 를 선택한 후  
   General 영역에서 **Owner를 HackerLogin-CTF로 변경**, repository 이름을 설정합니다.  
   이후 Configuration에서 **private**을 선택하고 **Create repository**를 눌러 작업을 시작합니다.
 
