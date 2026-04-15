@@ -40,7 +40,7 @@
 ### 필수 구성
 
 ```text
-problem/
+ctf문제 repository
 ├─ Description.md
 ├─ Specfile
 ├─ public/

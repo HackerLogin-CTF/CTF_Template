@@ -1,6 +1,6 @@
 [wargame]
 title = 문제명
-tags  = misc              # 카테고리
-flag  = 2026HL{...}       # 정답 플래그
-internal_port = 5000/tcp  # 생략 가능 / 포트가 여러 개일 경우: 5000/tcp,1337/tcp
-docker_compose = true     # 생략 가능 / DOCKER-COMPOSE를 사용한 경우 True
+tags  = misc             
+flag  = 2026HL{...}       
+internal_port = 5000/tcp  
+docker_compose = true     
